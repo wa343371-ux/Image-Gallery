@@ -6,7 +6,7 @@ const ImageCard = ({ image }) => {
   return (
     <div className={style.card}>
       <img
-        src={image.imageUrl} alt="Image" 
+        src={image.imageUrl} alt={image.name} 
       />
       <h1>{image.name}</h1>
       <p>
