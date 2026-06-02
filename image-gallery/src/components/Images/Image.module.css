@@ -19,6 +19,11 @@
     height: 300px;
 }
 
+.card h1{
+    font-size: 30px;
+    font-family: cursive;
+}
+
 .card div{
     display: flex;
     justify-content: space-between;
